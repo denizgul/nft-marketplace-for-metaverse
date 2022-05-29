@@ -3,9 +3,16 @@
   "version": "2.7.0",
   "description": "Decentraland's Marketplace",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/decentraland/marketplace.git"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "engines": {
+    "node": "14.x"
+  }
 }
